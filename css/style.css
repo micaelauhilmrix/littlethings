@@ -1,0 +1,106 @@
+
+
+.main-header{
+	margin-bottom: 15px;
+}
+.showcase{
+	margin: 5px 5px;
+	padding: 200px;
+	background-image: url(../images/14.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 5px #ca32ac double;
+	
+}
+.showcase:hover{
+	background-image: url(../images/nature.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+a{
+	text-decoration: none;
+}
+.button{
+	background: #a2f8ef;
+	color: #473954;
+	padding: 10px 25px;
+	border: 3px #5d4865 double;
+}
+.button:hover{
+	background: #000;
+	color: #ec1ff3;
+	
+}
+#main-menu{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr)
+}
+
+.main-article{
+	margin-bottom: 5px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	padding: 40px;
+	background: #ffd2ef
+	
+}
+.article-left{
+	background: #331313 
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	border: 3px #ca32ac solid;
+	padding: 15px;
+}
+.article-left img{
+	border: 3px #472d2d dotted;
+	margin: 20px;
+	position: center;
+	
+}
+
+#title-left{
+	text-align: center;
+	font-family: Cambria;
+}
+#p-left{
+	font-family: FangSong;
+	text-shadow: 0 0 10px #563c3c;
+}
+
+.article-right{
+	background: #331313 
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	border: 3px #ca32ac solid;
+	padding: 30px;
+}
+#p-right{
+	text-align: justify;
+	font-family: FangSong;
+	text-shadow: 0 0 10px #563c3c;
+}
+#title-right{
+	text-align: center;
+	font-family: Cambria;
+}
+.footer{
+	background: #cba2dc;
+	padding: 30px;
+	margin-bottom: 5px;
+	color: #000;
+	text-align: center;
+	font-family: FangSong;
+	text-shadow: 0 0 10px #563c3c;
+	border: 5px #5d4865 double;
